@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    background: #FAFAFA;
+    padding: 10px;
+}
+
+#commentUserName {
+    display: flex;
+}
+
+#commentInteractions {
+    display: flex;
+}
+
+#commentAvatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#commentUser {
+    color: #64BB91;
+    font-weight: bold;
+
+}

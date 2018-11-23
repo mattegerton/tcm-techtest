@@ -1,0 +1,28 @@
+.commentPost {
+    border: 1px rgb(219, 219, 219) solid;
+    display : flex;
+    align-items : center;
+}
+
+.commentPost img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#textInput {
+    width: 621px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#submitInput {
+    width: 82px;
+    height: 25px;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+    background: #64BB91;
+    box-shadow: 2px 2px #88888894;
+}
