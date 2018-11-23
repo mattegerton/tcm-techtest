@@ -17,8 +17,12 @@ class NewComments extends Component {
                         <p> Thought this worked out well last night, we should do it again next week.</p>
                     </div>
                     <div id="commentInteractions"> 
-                        <p> Likes </p>
-                        <p> Reply </p>
+                        <div className="actionText">
+                            <i class="icon ion-md-thumbs-up"></i> <p> 3 Likes </p>
+                        </div>
+                        <div className="actionText">
+                            <i class="icon ion-md-undo"></i> <p> Reply </p> 
+                        </div>
                     </div>
                 </div>
             </div>

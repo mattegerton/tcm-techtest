@@ -24,3 +24,12 @@
     font-weight: bold;
 
 }
+
+.actionText {
+    display: flex;
+    color: #999999;
+}
+
+.actionText :hover{
+    color: #64BB91;
+}
