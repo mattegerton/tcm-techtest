@@ -15,14 +15,14 @@ class NewComments extends Component {
                             <div>
                                 <div id="commentUserName">
                                     <p id="commentUser"> {comment.user} </p>
-                                    <p id="commentTime"> 2 hours ago </p>
+                                    <p id="commentTime"> {comment.posted} </p>
                                 </div>
                                 <div id="commentBody">
                                     <p> {comment.body} </p>
                                 </div>
                                 <div id="commentInteractions" className="actionText">
                                     <div className="actionText">
-                                        <i className="icon ion-md-thumbs-up"></i> <p> 3 Likes </p>
+                                        <i className="icon ion-md-thumbs-up"></i> <p> {comment.likes} Likes </p>
                                     </div>
                                     <div className="actionText">
                                         <i className="icon ion-md-undo"></i> <p> Reply </p>

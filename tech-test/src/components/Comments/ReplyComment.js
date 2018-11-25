@@ -13,40 +13,19 @@ class ReplyComment extends Component {
                     <div>
                         <div id="replyUserName">
                             <p id="replyUser"> {this.props.replies.user} </p>
-                            <p id="replyTime"> 20 minutes ago </p>
+                            <p id="replyTime"> {this.props.replies.posted} </p>
                         </div>
                         <div id="replyBody">
                             <p> {this.props.replies.body} </p>
                         </div>
                         <div id="replyInteractions" className="actionText">
                             <div className="actionText">
-                                <i className="icon ion-md-thumbs-up"></i> <p> </p>
+                                <i className="icon ion-md-thumbs-up"></i> <p> {this.props.replies.likes > 0 ? `${this.props.replies.likes} likes` : null} </p>
                             </div>
                         </div>
                     </div>
                 </div>
             )
-        // return (
-        //     <div className="container" id="replyCommentContainer">
-        //         <div>
-        //             <img id="replyAvatar" src={this.props.replies.avatar} alt="user avatar" />
-        //         </div>
-        //         <div>
-        //             <div id="replyUserName">
-        //                 <p id="replyUser"> {this.props.replies.user} </p>
-        //                 <p id="replyTime"> 20 minutes ago </p>
-        //             </div>
-        //             <div id="replyBody">
-        //                 <p> {this.props.replies.body} </p>
-        //             </div>
-        //             <div id="replyInteractions" className="actionText">
-        //                 <div className="actionText">
-        //                     <i className="icon ion-md-thumbs-up"></i> <p> </p>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // )
     }
 }
 

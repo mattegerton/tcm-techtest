@@ -38,6 +38,7 @@
     display: flex;
     color: #999999;
     align-items: center;
+    cursor: pointer;
 }
 
 .actionText i {

@@ -28,4 +28,9 @@
     border-style: none;
     background: #64BB91;
     box-shadow: 4px 4px 5px rgb(196, 196, 196);
+    cursor: pointer;
+}
+
+#submitInput :hover {
+    background: #43986f;
 }
