@@ -6,6 +6,8 @@
 
 #commentUserName {
     display: flex;
+    align-items: flex-end;
+    margin-bottom: 8px;
 }
 
 #commentInteractions {
@@ -25,11 +27,38 @@
 
 }
 
+#commentTime {
+    font-size: 10px;
+    color: #999999;
+    padding-left: 8px;
+}
+
+#commentBody {
+    margin-bottom: 8px;
+}
+
 .actionText {
     display: flex;
     color: #999999;
+    align-items: center;
+}
+
+.actionText i {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.actionText p {
+    font-size: 14px;
+    padding-right: 8px;
 }
 
 .actionText :hover{
     color: #64BB91;
+}
+
+#newCommentContainer {
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
