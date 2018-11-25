@@ -4,36 +4,32 @@
     padding: 10px;
 }
 
-#commentUserName {
+#replyUserName {
     display: flex;
     align-items: flex-end;
     margin-bottom: 8px;
 }
-
-#commentInteractions {
+#replyInteractions {
     display: flex;
 }
-
-#commentAvatar {
+#replyAvatar {
     width: 45px;
     height: 45px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-left: 52px;
 }
-
-#commentUser {
+#replyUser {
     color: #64BB91;
     font-weight: bold;
     font-size: 120%;
 }
-
-#commentTime {
+#replyTime {
     font-size: 10px;
     color: #999999;
     padding-left: 8px;
 }
-
-#commentBody {
+#replyBody {
     margin-bottom: 8px;
     font-size: 120%;
 }
@@ -58,7 +54,7 @@
     color: #64BB91;
 }
 
-#newCommentContainer {
+#replyContainer {
     height: 70px;
     display: flex;
     align-items: center;
