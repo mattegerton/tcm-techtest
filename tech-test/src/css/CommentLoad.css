@@ -1,0 +1,9 @@
+.loadMore {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 1em;
+    padding: 15px;
+    color: #64BB91;
+    background: #FAFAFA;
+    border-top: 1px solid  rgb(219, 219, 219);
+}

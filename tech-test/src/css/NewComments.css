@@ -1,7 +1,7 @@
 .container {
     display: flex;
     background: #FAFAFA;
-    padding: 10px;
+    padding: 15px;
 }
 
 #commentUserName {
@@ -36,6 +36,7 @@
 #commentBody {
     margin-bottom: 8px;
     font-size: 120%;
+    text-align: left;
 }
 
 .actionText {
@@ -62,4 +63,6 @@
     height: 70px;
     display: flex;
     align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }

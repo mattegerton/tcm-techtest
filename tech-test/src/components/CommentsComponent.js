@@ -3,6 +3,7 @@ import '../css/CommentsContainer.css'
 import CommentHeader from '../components/Comments/CommentHeader'
 import CommentPost from './Comments/CommentPost';
 import NewComments from './Comments/NewComments';
+import CommentLoad from './Comments/CommentLoad';
 
 class CommentsComponent extends Component {
 
@@ -14,7 +15,7 @@ class CommentsComponent extends Component {
                 body: 'Thought this worked out well last night, we should do it again next week',
                 replies:
                 {
-                    user: 'Sarah Connor',
+                    user: 'Emma Trello',
                     avatar: `https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`,
                     body: 'Agreed! The players responded really well to it.'
                 }
@@ -35,6 +36,7 @@ class CommentsComponent extends Component {
                 <CommentHeader />
                 <CommentPost user={this.props.user} />
                 <NewComments comments={this.state.comments} />
+                <CommentLoad />
             </div>
         );
     }
