@@ -15,6 +15,9 @@
     width: 621px;
     height: 32px;
     margin-right: 10px;
+    padding: 5px;
+    color: #999999;
+    font-size: 120%;
 }
 
 #submitInput {
@@ -24,5 +27,5 @@
     border-radius: 25px;
     border-style: none;
     background: #64BB91;
-    box-shadow: 2px 2px #88888894;
+    box-shadow: 4px 4px 5px rgb(196, 196, 196);
 }
