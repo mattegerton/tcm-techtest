@@ -42,13 +42,15 @@ class CommentsComponent extends Component {
     render() {
         return (
             <div id="commentsContainer">
-                <CommentHeader />
+                <CommentHeader commentCount={this.state.comments.length} />
                 <CommentPost user={this.props.user} post={this.addComment} />
                 <NewComments comments={this.state.comments} />
                 <CommentLoad />
             </div>
         );
     }
+
+    // Recieve user input from CommentPost. Add to existing Array. Update state with new Array.
 
     addComment = (newComment) => {
         let allComments = this.state.comments.push(newComment);

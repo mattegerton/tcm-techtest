@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../css/CommentHeader.css'
 
-const CommentHeader = ({commentCount}) => {
+const CommentHeader = ({ commentCount }) => {
     return (
         <div className="headContainer">
-           <p> 3 comments </p>
+            <p> {commentCount} comments </p>
         </div>
     );
 };
