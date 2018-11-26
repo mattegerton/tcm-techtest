@@ -9,6 +9,13 @@
     align-items: flex-end;
     margin-bottom: 8px;
 }
+
+#replyUserName i {
+    font-size: 120%;
+    float: right;
+    position: relative;
+    right: -475px;
+}
 #replyInteractions {
     display: flex;
 }

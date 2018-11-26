@@ -14,6 +14,7 @@ class ReplyComment extends Component {
                         <div id="replyUserName">
                             <p id="replyUser"> {this.props.replies.user} </p>
                             <p id="replyTime"> {this.props.replies.posted} </p>
+                            <i id="commentDropIcon" className="icon ion-md-arrow-dropdown"></i>
                         </div>
                         <div id="replyBody">
                             <p> {this.props.replies.body} </p>

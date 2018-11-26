@@ -13,8 +13,9 @@ class CommentsComponent extends Component {
                 user: 'David Smith',
                 avatar: `https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`,
                 body: 'Thought this worked out well last night, we should do it again next week',
-                posted: '2 hours ago',
+                posted: '3 hours ago',
                 likes: 4,
+                verified: true,
                 replies:
                 {
                     user: 'Emma Trello',
@@ -27,9 +28,10 @@ class CommentsComponent extends Component {
             {
                 user: 'Larry Moore',
                 avatar: 'https://images.pexels.com/photos/935969/pexels-photo-935969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-                body: 'My lads loved this drill. Will definitely be doing it again, possible adding on or two more defenders to make it harder.',
+                body: 'My lads loved this drill. Will definitely be doing it again, possible adding one or two more defenders to make it harder.',
                 posted: '7 hours ago',
                 likes: 3,
+                verified: false,
                 replies: {
 
                 }
@@ -48,10 +50,12 @@ class CommentsComponent extends Component {
         );
     }
 
-    addComment(newComment) {
-        console.log(newComment)
+    addComment = (newComment) => {
+        let allComments = this.state.comments.push(newComment);
+        console.log(allComments)
+
         this.setState({
-            comments: newComment
+            comments: allComments
         })
     }
 }

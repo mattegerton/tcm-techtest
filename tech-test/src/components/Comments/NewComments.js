@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/NewComments.css'
 import ReplyComment from './ReplyComment';
+import VerifiedLogo from '../VerifiedLogo';
 
 class NewComments extends Component {
     render() {
@@ -11,11 +12,13 @@ class NewComments extends Component {
                         <div className="container" id="newCommentContainer">
                             <div>
                                 <img id="commentAvatar" src={comment.avatar} alt="user avatar" />
+                                {comment.verified ? <VerifiedLogo /> : null}
                             </div>
                             <div>
                                 <div id="commentUserName">
                                     <p id="commentUser"> {comment.user} </p>
                                     <p id="commentTime"> {comment.posted} </p>
+                                    <i id="commentDropIcon" className="icon ion-md-arrow-dropdown"></i>
                                 </div>
                                 <div id="commentBody">
                                     <p> {comment.body} </p>

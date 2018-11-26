@@ -14,6 +14,13 @@
     display: flex;
 }
 
+#commentUserName i {
+    font-size: 120%;
+    float: right;
+    position: relative;
+    right: -525px;
+}
+
 #commentAvatar {
     width: 45px;
     height: 45px;

@@ -26,7 +26,7 @@ class CommentPost extends Component {
         });
     }
 
-    handleSubmit = e => {
+    handleSubmit(e) {
         e.preventDefault();
 
         const newComment = {
